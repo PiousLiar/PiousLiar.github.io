@@ -5,7 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="My self-inroduction and a little bit of information about my favourite place">
     <meta name="keywords" content="self-inroduction, München, hobbies">
-    <title>Зеленський М.В. ІО-12</title>
+    <link rel="stylesheet" href="styles.css">
+        <style>
+            table, td {
+                border: 2px outset;
+                border-collapse: collapse;
+            }
+
+            td {
+                text-align: center;
+            }
+
+            tr:first-child {
+                background-color: #658f8f;
+                color: #1F1603;
+            }
+
+            tr:nth-child(2) {
+                background-color: #f5f565;
+                color: #100A01;
+            }
+
+            tr:first-child:hover {
+                background-color: #1F1603;
+                color: #658f8f;
+            }
+
+            tr:nth-child(2):hover {
+                background-color: #100A01;
+                color: #f5f565;
+            }
+
+            tr:first-child, tr:nth-child(2) {
+                transition: background-color 0.5s ease;
+            }
+        </style>
+    <title>Зеленський М.В. ІО-12 вар. 65</title>
 </head>
 <body>
     <p>
@@ -47,5 +82,38 @@
     <a href="https://www.muenchen.de/" target="_blank">
         <img alt="Фотографія центральної площі Мюнхена" src="https://www.merian.de/uploads/media/1280x/03/1503-Muenchen_AufmacherGregorLengel.jpg?v=1-0" />
     </a>
+    <h2>Лабораторна робота №2</h2>
+    <h3>Варіант №5</h3>
+    <p>Завдання 1:</p>
+    <table>
+        <tr>
+            <td>Зеленський</td>
+            <td colspan="2">Микита</td>
+            <td>Віталійович</td>
+        </tr>
+        <tr>
+            <td rowspan="2">ІО-12</td>
+            <td rowspan="2">2 лабораторна</td>
+            <td>65</td>
+            <td rowspan="2">&emsp;</td>
+        </tr>
+        <tr>
+            <td>&emsp;</td>
+        </tr>
+        <tr>
+            <td>&emsp;</td>
+            <td colspan="2">&emsp;</td>
+            <td>&emsp;</td>
+        </tr>
+    </table>
+    <p>Завдання 2:</p>
+    <div>
+        <div class="circle"></div>
+        <div class="circle-blue"></div>
+        <div class="circle-green"></div>
+        <div class="circle-transform"></div>
+        <div class="circle-green-transform"></div>
+        <div class="circle-blue-transform"></div>
+    </div>
 </body>
 </html>
