@@ -1,0 +1,48 @@
+body {
+    background: #f3f2f3;
+    color: #000;
+    font-family: 'Trebuchet MS', Arial, 'Times New Roman';
+    font-size: 30px;
+    text-align: center;
+    }
+
+#container {
+    background: #E36B68;
+    width: 90%;
+    height: 775px;
+    }
+
+#FirstText {
+    background: #E39668;
+    width: 100%;
+    height: 150px;
+    }
+
+#SecondText {
+    background: #E38168;
+    float: left;
+    width: 75%;
+    height: 545px;
+    }
+
+#FirstImg {
+    background: #E368A7;
+    float: left;
+    width: 25%;
+    height: 545px;
+    }
+
+#SecondImg {
+    width: 100%;
+    height: 100px;
+    background-color: #E3AC68;
+    clear: both;
+    line-height: 100px;
+    }
+
+#FirstText, #SecondText, #FirstImg, #SecondImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
